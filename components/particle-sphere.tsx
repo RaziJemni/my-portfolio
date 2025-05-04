@@ -169,10 +169,10 @@ export default function ParticleSphere() {
     const handleResize = () => {
       if (window.innerWidth < 768) {
         // Adjust camera for mobile to keep the sphere size consistent
-        setCameraSettings({ position: [0, 0, 3.5], fov: 30 });
+        setCameraSettings({ position: [0, 0, 3.5], fov: 50 });
       } else {
         // Default camera for larger screens
-        setCameraSettings({ position: [0, 0, 3], fov: 50 });
+        setCameraSettings({ position: [0, 0, 3], fov: 60 });
       }
     };
 
