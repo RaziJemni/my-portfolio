@@ -2,6 +2,7 @@
 
 import type React from "react"
 
+import { Analytics } from '@vercel/analytics/next';
 import Link from "next/link"
 import { Github, Linkedin, Mail, Menu, X } from "lucide-react"
 import { useState, useEffect } from "react"
@@ -535,6 +536,7 @@ export default function Home() {
           <p className="text-gray-500 text-sm mt-2">Thanks for visiting!</p>
         </div>
       </footer>
+      <Analytics />
     </main>
   )
 }
