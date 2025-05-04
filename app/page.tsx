@@ -2,6 +2,7 @@
 
 import type React from "react"
 
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/next';
 import Link from "next/link"
 import { Github, Linkedin, Mail, Menu, X } from "lucide-react"
@@ -537,6 +538,7 @@ export default function Home() {
         </div>
       </footer>
       <Analytics />
+      <SpeedInsights />
     </main>
   )
 }
