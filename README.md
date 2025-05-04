@@ -44,6 +44,7 @@ my-portfolio/
 ├── [next.config.mjs](http://_vscodecontentref_/6)     # Next.js configuration
 ├── [tailwind.config.ts](http://_vscodecontentref_/7)  # Tailwind CSS configuration
 └── [README.md](http://_vscodecontentref_/8)           # Project documentation
+```
 
 ---
 
