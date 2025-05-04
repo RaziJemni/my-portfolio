@@ -130,11 +130,13 @@ export default function Home() {
       title: "Blank",
       technologies: "Work In Progress",
       repoUrl: "",
+      imgUrl: "loading.png",
     },
     {
       title: "Blank",
       technologies: "Work In Progress",
       repoUrl: "",
+      imgUrl: "loading.png",
     },
   ]
 
@@ -465,12 +467,24 @@ export default function Home() {
             </div>
             <div className="md:w-1/2 space-y-8 mt-8 md:mt-0 md:pl-16">
               <div className="group flex items-center gap-4">
-                <div className="bg-[#2a2a2a] p-4 rounded-full group-hover:bg-secondary/20 transition-all duration-300 transform group-hover:scale-110">
+                <a
+                  href="mailto:razi.jemni1@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#2a2a2a] p-4 rounded-full group-hover:bg-secondary/20 transition-all duration-300 transform group-hover:scale-110"
+                >
                   <Mail className="h-6 w-6 text-secondary" />
-                </div>
+                </a>
                 <div>
                   <p className="text-sm text-gray-400">Email</p>
-                  <p className="text-lg">razi.jemni1@gmail.com</p>
+                  <a
+                    href="mailto:razi.jemni1@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg "
+                  >
+                    razi.jemni1@gmail.com
+                  </a>
                 </div>
               </div>
 
